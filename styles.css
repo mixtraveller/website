@@ -1,7 +1,43 @@
-.test {
-  background-color: green;
+#productList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 
-.test2 {
-  background-color: green;
+.product {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid salmon;
+  border-radius: 20px;
+  background-color: aqua;
+}
+
+.product-category {
+  margin-bottom: 15px;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.product-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.product-overview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 15px;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 25px;
+  border: 1px solid black;
 }
